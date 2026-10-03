@@ -15,3 +15,6 @@ def test_repeated_value():
 
 def test_no_pair_returns_empty():
     assert two_sum([1, 2, 3], 100) == []
+
+def test_customized_value():
+    assert two_sum([2, 5, 7, 6], 9) == [0, 2]
